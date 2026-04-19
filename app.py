@@ -180,7 +180,7 @@ h1, h2, h3, h4 {
     font-size: 2rem;
     font-weight: 800;
     color: #e6edf3;
-    line-height: 1.5;
+    line-height: 2.5;
     margin-bottom: 0;
 }
 .page-title span { color: #00d4aa; }
