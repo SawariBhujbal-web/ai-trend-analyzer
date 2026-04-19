@@ -177,7 +177,7 @@ h1, h2, h3, h4 {
 /* ── Page title ── */
 .page-title {
     font-family: 'Poppins', sans-serif;
-    font-size: 6rem;
+    font-size: 7rem;
     font-weight: 800;
     color: #e6edf3;
     line-height: 1.5;
