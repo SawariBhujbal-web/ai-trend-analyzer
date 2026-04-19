@@ -177,11 +177,12 @@ h1, h2, h3, h4 {
 /* ── Page title ── */
 .page-title {
     font-family: 'Poppins', sans-serif;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 800;
     color: #e6edf3;
-    line-height: 2.5;
-    margin-bottom: 0;
+    line-height: 1.5;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .page-title span { color: #00d4aa; }
 .page-subtitle {
