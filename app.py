@@ -361,19 +361,10 @@ top_keyword = str(trends.iloc[0, 0]) if len(trends) else "—"
 # SIDEBAR
 # ──────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("""
-<p style="
-    font-family: 'Poppins', sans-serif;
-    font-size: 70px;
-    font-weight: 900;
-    color: #e6edf3;
-    line-height: 1.4;
-    margin-top: 20px;
-    margin-bottom: 10px;
-">
-AI Social Media <span style="color:#00d4aa;">Trend Analyzer</span>
-</p>
-""", unsafe_allow_html=True)
+    st.markdown(f"""
+        <p class="brand">📊 AI <span>Trend</span></p>
+        <p class="brand-sub">// analyzer · v1.0</p>
+    """, unsafe_allow_html=True)
 
     st.markdown("---")
     st.markdown('<span class="sec-tag">Navigation</span>', unsafe_allow_html=True)
